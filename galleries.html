@@ -1,0 +1,58 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/general.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>N&amp;B photographies - Galeries</title>
+<!-- InstanceEndEditable -->
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/nb.css" rel="stylesheet">
+<script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function(){
+		$('#menuToggle').click(function(){
+			$('#mainNav').stop(true, true).slideToggle();
+		});
+	});
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="sectionClass" type="text" value="galleries" -->
+</head>
+
+<body>
+<header id="mainHeader">
+  <img src="images/nb_logo.svg" alt="Logo Noir et Blanc" id="" />
+  <nav id="mainNav">
+	  <ul>
+	  	<li><a href="index.html">Accueil</a></li>
+	  	<li><a href="galleries.html">Galeries</a></li>
+	  	<li><a href="about.html">À propos</a></li>
+	  </ul>
+  </nav>
+	<button id="menuToggle" class="hamburger">&nbsp;</button>
+</header>
+<section class="galleries" id="pageContent"><!-- InstanceBeginEditable name="contenu" -->
+  <main>
+    <h1>Galeries</h1>
+    <ul id="galleries">
+      <li>
+        <a href="singleGallery.html?id=gal1">
+			<h2>Bretagne 2019</h2>
+			<img src="images/image-1.jpg" alt="Bretagne 2019"/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequatur quod odio consequuntur ipsa, aliquam ea eveniet cupiditate, nemo quae illo cum ullam voluptates excepturi repellendus modi laborum aspernatur nostrum.</p>
+      	</a>
+	  </li>
+	  <li>
+        <a href="singleGallery.html?id=gal2">
+			<h2>Sacramento 2017</h2>
+			<img src="images/image-8.jpg" alt="Sacrmento 2017"/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti consequatur quod odio consequuntur ipsa, aliquam ea eveniet cupiditate, nemo quae illo cum ullam voluptates excepturi repellendus modi laborum aspernatur nostrum.</p>
+      	</a>
+	  </li>
+    </ul>
+  </main>
+<!-- InstanceEndEditable --></section>
+<footer id="mainFooter">&copy; Damien Bruyndonckx 2019</footer>
+</body>
+<!-- InstanceEnd --></html>
